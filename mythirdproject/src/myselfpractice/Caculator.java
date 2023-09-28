@@ -2,7 +2,7 @@ package myselfpractice;
 
 import java.util.Scanner;
 
-public class Readingfromconsole {
+public class Caculator {
 
 	public static void main(String[] args) {
 		System.out.println("Taking input from user");

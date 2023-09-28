@@ -11,30 +11,25 @@ public class Readingfromconsole {
 		int x = input.nextInt();
 		System.out.println(" Enter other no.");
 		int y = input.nextInt();
-	     System.out.println("Enter your operator from +,-,*,/");
-	     int operator = input.next().charAt(1);
-		
-		switch (operator) {
-		
-			case '+'
-			: 
-				System.out.println("Sum = " + (x+y));
-				break;
-			case '-' :
-				System.out.println("subtract = " + (x-y));
-				break;
-			case '*':
-				System.out.println("Multiplication = " + (x*y));
-				break;
-			case '/' :
-				System.out.println("Division = " +(x/y));
-				break;
-				
-			
-		}
-		
+		System.out.println("Enter your operator from +,-,*,/");
+		int operator = input.next().charAt(0);
 
-		
+		switch (operator) {
+
+		case '+':
+			System.out.println("Sum = " + (x + y));
+			break;
+		case '-':
+			System.out.println("subtract = " + (x - y));
+			break;
+		case '*':
+			System.out.println("Multiplication = " + (x * y));
+			break;
+		case '/':
+			System.out.println("Division = " + (x / y));
+			break;
+
+		}
 
 	}
 

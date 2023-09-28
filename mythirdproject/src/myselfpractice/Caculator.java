@@ -12,7 +12,7 @@ public class Caculator {
 		System.out.println(" Enter other no.");
 		int y = input.nextInt();
 		System.out.println("Enter your operator from +,-,*,/");
-		int operator = input.next().charAt(0);
+		char operator = input.next().charAt(0);
 
 		switch (operator) {
 
@@ -26,11 +26,25 @@ public class Caculator {
 			System.out.println("Multiplication = " + (x * y));
 			break;
 		case '/':
-			System.out.println("Division = " + (x / y));
-			break;
-
+		 if (y !=0 );{
+		 System.out.println( "division = " +(x/y));
+		 
+		 } else{	
+			System.out.println("not valid no.");
+		 }
+		 default:
+			 System.out.println("Enter valid no.");
+			
 		}
+		
+			
+	}				
+				
+			
+}		
 
-	}
+		
 
-}
+	
+
+

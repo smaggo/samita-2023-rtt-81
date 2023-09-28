@@ -17,6 +17,8 @@ Scanner input= new Scanner(System.in);
    String s = input.next();
    char ch = s.charAt(3);
    System.out.println("The character entered is" +"  "+   ch);
-  
+  int x = input.nextInt();
+   System.out.print("enter your no.");
+   
 }
 }

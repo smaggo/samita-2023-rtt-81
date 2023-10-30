@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.samita.hibernateuser"},{"l":"com.samita.hibernateuser.controller"},{"l":"com.samita.hibernateuser.model"},{"l":"com.samita.hibernateuser.util"}];updateSearchResults();

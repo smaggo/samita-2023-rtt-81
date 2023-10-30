@@ -29,7 +29,7 @@ public class Caculator {
 		 if (y !=0 );{
 		 System.out.println( "division = " +(x/y));
 		 
-		 } else{	
+		 } else {	
 			System.out.println("not valid no.");
 		 }
 		 default:

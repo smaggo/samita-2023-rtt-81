@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+	body {
+
+		background-color: beige;
+
+	}
+
+	.body-contact {
+		font-family: Oswald;
+		font-size: larger;
+		padding: 30px;
+		margin: 0;
+		margin: 0;
+		/* Reset default margin */
+	}
+
+	.formfield {
+		display: flex;
+		align-items: center;
+	}
+
+	label {
+		display: inline-block;
+		width: 7%;
+		text-align: left;
+	}
+
+
+	/* Style the submit button with a specific background color etc */
+	input[type=submit] {
+		background-color: #04AA6D;
+		color: white;
+		padding: 12px 20px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+	/* When moving the mouse over the submit button, add a darker green color */
+	input[type=submit]:hover {
+		background-color: #45a049;
+	}
+
+	nav {
+		display: box;
+		align-items: center;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+	}
+
+	li {
+		margin-right: 20px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+</style>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SCHEDULE TOUR</title>
+	<link rel="stylesheet" href="../static/styles/index.css">
+	<script type="text/javascript" src="../static/script/index.js"> </script>
+
+</head>
+
+<body class="body-contact">
+	<header>
+		<nav class="navbar">
+			<img src="../images/logo.png"></img>
+			<a href="index.html">HOME</a>
+			<div class="dropdown">
+				<button class="dropbtn">COMMUNITY INFORMATION
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="../templates/amenities.html">Amenities</a>
+					<a href="listing.html">Floor Plan</a>
+					<a href="sitemap.html">Property Map</a>
+
+				</div>
+			</div>
+			<a href="contact.html">CONTACT US</a>
+			<a href="tour.html">SCHEDULE TOUR</a>
+
+		</nav>
+
+	</header>
+
+
+	</div>
+	<br>
+	<br>
+	<div>
+		<form action="../templates/index.html">
+
+			<label for="fname">First Name</label>
+			<input type="text" style="	width: 25%;
+		/* Full width */
+		padding: 8px;
+		/* Some padding */
+		border: 1px solid #ccc;
+		/* Gray border */
+		border-radius: 1px;
+		/* Rounded borders */
+		/* Make sure that padding and width stays in place */
+		margin-top: 6px;
+		/* Add a top margin */
+		margin-bottom: 7px;
+		/* Bottom margin */
+		vertical-align: middle;" id="fname" name="firstname" placeholder="Your name.." required>
+			<br>
+
+			<label for="lname">Last Name</label>
+			<input type="text" style="width: 25%;
+		
+		padding: 8px;
+		
+		border: 1px solid #ccc;
+		
+		border-radius: 1px;
+		
+		
+		margin-top: 6px;
+		
+		margin-bottom: 7px;
+		
+		vertical-align: middle;" id="lname" name="lastname" placeholder="Your last name.." required>
+			<br>
+			<label for="email">Email</label>
+			<input type="email" style="width: 25%;
+		
+		padding: 8px;
+		
+		border: 1px solid #ccc;
+		
+		border-radius: 1px;
+		
+		margin-top: 6px;
+		
+		margin-bottom: 7px;
+		
+		vertical-align: middle;" id="email" name="email" placeholder="Your email address.." required>
+
+
+
+			<br>
+
+			<label for="date">Date</label>
+			<input type="date" style="width: 25%;
+		
+		padding: 8px;
+		
+		border: 1px solid #ccc;
+		
+		border-radius: 1px;
+		
+		margin-top: 6px;
+		
+		margin-bottom: 7px;
+		vertical-align: mddlei" id="date" name="date">
+			<br>
+			<br>
+
+
+
+			<input type="submit" style="width: 25%;
+		padding: 8px;
+		
+		border: 1px solid #ccc;
+		border-radius: 1px;
+		margin-top: 6px;
+		margin-bottom: 7px;
+		vertical-align: middle;" value="Submit" onclick="return submitForm(this);" required>
+
+		</form>
+	</div>
+
+</body>
+
+</html>

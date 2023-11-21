@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+	.body-contact {
+		font-family: Oswald;
+		font-size: larger;
+		padding: 30px;
+		margin: 0;
+		margin: 0;
+
+	}
+
+	.formfield {
+		display: flex;
+		align-items: center;
+	}
+
+	label {
+		display: inline-block;
+		width: 7%;
+		text-align: left;
+	}
+
+	​input[type=text],
+	input[type=email],
+	select,
+	textarea {
+		width: 25%;
+
+		padding: 8px;
+
+		border: 1px solid #ccc;
+
+		border-radius: 1px;
+
+		margin-top: 6px;
+
+		margin-bottom: 7px;
+
+		vertical-align: middle;
+
+	}
+
+
+
+	input[type=submit] {
+		background-color: #04AA6D;
+		color: white;
+		padding: 12px 20px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+
+	input[type=submit]:hover {
+		background-color: #45a049;
+	}
+
+	nav {
+		display: box;
+		align-items: center;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+	}
+
+	li {
+		margin-right: 20px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	body {
+
+		background-color: beige;
+
+	}
+</style>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CONTACT US</title>
+	<link rel="stylesheet" href="../static/styles/index.css">
+	<script type="text/javascript" src="../static/script/index.js"> </script>
+</head>
+
+
+<body class="body-contact">
+	<header>
+		<nav class="navbar">
+			<img src="../images/logo.png"></img>
+			<a href="index.html">HOME</a>
+			<div class="dropdown">
+				<button class="dropbtn">COMMUNITY INFORMATION
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="../templates/amenities.html">Amenities</a>
+					<a href="listing.html">Floor Plan</a>
+					<a href="sitemap.html">Property Map</a>
+
+				</div>
+			</div>
+			<a href="contact.html">CONTACT US</a>
+			<a href="tour.html">SCHEDULE TOUR</a>
+
+		</nav>
+
+	</header>
+
+
+	</div>
+	<br>
+	<br>
+	<div>
+		<form action="../templates/index.html">
+
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstName" placeholder="Your name.." required>
+			<br>
+
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastName" placeholder="Your last name.." required>
+			<br>
+			<label for="email">Email</label>
+
+			<input type="email" name="Email" placeholder="Enter your email.."
+				pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+
+			<br>
+			<label for="subject">Message</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." rows="10"></textarea>
+
+			<br>
+
+			<input type="submit" value="Submit" onclick="return submitForm(this);">
+
+		</form>
+	</div>
+	
+	<br>
+	
+<footer>Ventana Oaks Apartment Homes
+  <br>Contact Us @: ventanaoaks@gmail.com
+  <br>
+  Phone No:3452896871
+</footer>
+</body>
+
+</html>
